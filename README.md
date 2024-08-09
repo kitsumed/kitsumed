@@ -21,32 +21,32 @@
    <p>The skills and technologies listed are not in any particular order, and my level of expertise varies for each.</p>
    <h4 align="left">Languages :</h4>
    <div align="left">
-      <a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview" target="_blank" rel="noreferrer"> <img src="./icons/languages/csharp.svg" alt="csharp" width="42" height="42"/> </a>
-      <a href="https://luau-lang.org/" target="_blank" rel="noreferrer"> <img src="./icons/languages/Luau.svg" alt="luau" width="42" height="42"/> </a>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"> <img src="./icons/languages/css3.svg" alt="css3" width="42" height="42"/> </a>
-      <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="./icons/languages/html5.svg" alt="html5" width="42" height="42"/> </a>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="./icons/languages/javascript.svg" alt="javascript" width="42" height="42"/> </a>
-      <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="./icons/languages/Python.svg" alt="python" width="42" height="42"/> </a>
+      <a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/languages/csharp.svg" alt="csharp" width="42" height="42"/> </a>
+      <a href="https://luau-lang.org/" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/languages/Luau.svg" alt="luau" width="42" height="42"/> </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/languages/css3.svg" alt="css3" width="42" height="42"/> </a>
+      <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/languages/html5.svg" alt="html5" width="42" height="42"/> </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/languages/javascript.svg" alt="javascript" width="42" height="42"/> </a>
+      <a href="https://www.python.org/" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/languages/Python.svg" alt="python" width="42" height="42"/> </a>
    </div>
 
    <h4 align="left">Databases :</h4>
    <div align="left">
-      <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="./icons/other/mysql.svg" alt="mysql" width="42" height="42"/> </a>
-      <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="42" height="42"/> </a>
+      <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/other/mysql.svg" alt="mysql" width="42" height="42"/> </a>
+      <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="42" height="42"/> </a>
    </div>
 
    <h4 align="left">Tools / IDE / Development :</h4>
    <div align="left">
-      <a href="https://visualstudio.microsoft.com" target="_blank" rel="noreferrer"> <img src="./icons/other/VisualStudio2019.svg" alt="visual studio" width="42" height="42"/> </a>
-      <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="./icons/other/VisualStudioCode1.35.svg" alt="visual studio code" width="42" height="42"/> </a>
-      <a href="https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion" target="_blank" rel="noreferrer"> <img src="./icons/other/VmwareWorkstation16.svg" alt="vmware workstation" width="42" height="42"/> </a>
-      <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="./icons/other/nodejs.svg" alt="nodejs" width="42" height="42"/> </a>
-      <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="./icons/other/docker.svg" alt="docker" width="42" height="42"/> </a>
+      <a href="https://visualstudio.microsoft.com" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/other/VisualStudio2019.svg" alt="visual studio" width="42" height="42"/> </a>
+      <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/other/VisualStudioCode1.35.svg" alt="visual studio code" width="42" height="42"/> </a>
+      <a href="https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/other/VmwareWorkstation16.svg" alt="vmware workstation" width="42" height="42"/> </a>
+      <a href="https://nodejs.org" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/other/nodejs.svg" alt="nodejs" width="42" height="42"/> </a>
+      <a href="https://www.docker.com/" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/other/docker.svg" alt="docker" width="42" height="42"/> </a>
    </div>
 
    <h4 align="left">Softwares :</h4>
    <div align="left">
-      <a href="https://github.com/audacity/audacity" target="_blank" rel="noreferrer"> <img src="./icons/softwares/Audacity.svg" alt="audacity" width="42" height="42"/> </a>
+      <a href="https://github.com/audacity/audacity" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="./icons/softwares/Audacity.svg" alt="audacity" width="42" height="42"/> </a>
    </div>
 
 </details>
