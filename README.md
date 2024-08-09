@@ -32,7 +32,7 @@
    <h4 align="left">Databases :</h4>
    <div align="left">
       <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="./icons/other/mysql.svg" alt="mysql" width="42" height="42"/> </a>
-      <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="42" height="42"/> </a>
+      <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="./icons/other/sqlite.svg" alt="sqlite" width="42" height="42"/> </a>
    </div>
 
    <h4 align="left">Tools / IDE / Development :</h4>
