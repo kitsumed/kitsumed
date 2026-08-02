@@ -32,7 +32,7 @@
     </linearGradient>
     <linearGradient id="blue-shine-light" x1="-150%" y1="0%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#005cc5" />
-      <stop offset="50%" stop-color="#b3d7ff" />
+      <stop offset="50%" stop-color="#1f6feb" />
       <stop offset="100%" stop-color="#005cc5" />
       <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
       <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
@@ -48,7 +48,7 @@
     </linearGradient>
     <linearGradient id="pink-shine-light" x1="-150%" y1="0%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#d73a49" />
-      <stop offset="50%" stop-color="#ffdce0" />
+      <stop offset="50%" stop-color="#b31d28" />
       <stop offset="100%" stop-color="#d73a49" />
       <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
       <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
@@ -76,8 +76,8 @@
       :root {
         --bg-color: #f6f8fa;
         --border-color: #d1d5da;
-        --particle-dot: #e1e4e8;
-        --particle-cross: #eaecef;
+        --particle-dot: #cbd5e1;
+        --particle-cross: #b0b7c3;
         --text-main: url(#text-shine-light);
         --text-sub: #586069;
         --highlight-blue: url(#blue-shine-light);
