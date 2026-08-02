@@ -1,0 +1,196 @@
+<svg width="480" height="90" viewBox="0 0 480 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Soft sweeping gradient for Main Title (Dark Mode) -->
+    <linearGradient id="text-shine-dark" x1="-200%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#c9d1d9" />
+      <stop offset="30%" stop-color="#c9d1d9" />
+      <stop offset="50%" stop-color="#ea4aaa" />
+      <stop offset="70%" stop-color="#c9d1d9" />
+      <stop offset="100%" stop-color="#c9d1d9" />
+      <animate attributeName="x1" values="-200%; 200%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="-100%; 300%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Soft sweeping gradient for Main Title (Light Mode) -->
+    <linearGradient id="text-shine-light" x1="-200%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#24292e" />
+      <stop offset="30%" stop-color="#24292e" />
+      <stop offset="50%" stop-color="#d73a49" />
+      <stop offset="70%" stop-color="#24292e" />
+      <stop offset="100%" stop-color="#24292e" />
+      <animate attributeName="x1" values="-200%; 200%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="-100%; 300%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Shimmer Gradients for "one-time tip" (Blue) - Delayed start & slow sweep -->
+    <linearGradient id="blue-shine-dark" x1="-150%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="50%" stop-color="#cce5ff" />
+      <stop offset="100%" stop-color="#58a6ff" />
+      <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="blue-shine-light" x1="-150%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#005cc5" />
+      <stop offset="50%" stop-color="#b3d7ff" />
+      <stop offset="100%" stop-color="#005cc5" />
+      <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Shimmer Gradients for "monthly sponsorship" (Pink) - Delayed start & slow sweep -->
+    <linearGradient id="pink-shine-dark" x1="-150%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ea4aaa" />
+      <stop offset="50%" stop-color="#ffe0ec" />
+      <stop offset="100%" stop-color="#ea4aaa" />
+      <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="pink-shine-light" x1="-150%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#d73a49" />
+      <stop offset="50%" stop-color="#ffdce0" />
+      <stop offset="100%" stop-color="#d73a49" />
+      <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Base Cross Shape for Particles -->
+    <path id="cross" d="M -2 -6 H 2 V -2 H 6 V 2 H 2 V 6 H -2 V 2 H -6 V -2 H -2 Z" />
+  </defs>
+
+  <style>
+    /* Default / Dark Mode Theme Variables */
+    :root {
+      --bg-color: #0d1117;
+      --border-color: #30363d;
+      --particle-dot: #30363d;
+      --particle-cross: #1f242b;
+      --text-main: url(#text-shine-dark);
+      --text-sub: #8b949e;
+      --highlight-blue: url(#blue-shine-dark);
+      --highlight-pink: url(#pink-shine-dark);
+    }
+
+    /* Light Mode Theme Variables */
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-color: #f6f8fa;
+        --border-color: #d1d5da;
+        --particle-dot: #e1e4e8;
+        --particle-cross: #eaecef;
+        --text-main: url(#text-shine-light);
+        --text-sub: #586069;
+        --highlight-blue: url(#blue-shine-light);
+        --highlight-pink: url(#pink-shine-light);
+      }
+    }
+
+    /* Entry Animations */
+    @keyframes smoothSlideUp {
+      0% { transform: translateY(18px); opacity: 0; }
+      100% { transform: translateY(0px); opacity: 1; }
+    }
+    
+    @keyframes springPop {
+      0% { transform: scale(0.5); opacity: 0; }
+      50% { transform: scale(1.12); opacity: 1; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes slowFade {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .entry-heart {
+      transform-origin: 52px 44px;
+      animation: springPop 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+    }
+    
+    .entry-title {
+      animation: smoothSlideUp 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+      opacity: 0;
+    }
+    
+    .entry-sub {
+      animation: smoothSlideUp 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+      opacity: 0;
+    }
+    
+    .entry-particles {
+      animation: slowFade 2.5s ease-out 0.8s forwards;
+      opacity: 0;
+    }
+
+    /* Continuous Loop Animations */
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      10% { transform: scale(1.15); }
+      20% { transform: scale(1); }
+      30% { transform: scale(1.15); }
+      40% { transform: scale(1); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0px); opacity: 0; }
+      50% { opacity: 0.6; }
+      100% { transform: translateY(-20px); opacity: 0; }
+    }
+
+    .heart {
+      transform-origin: 12px 12px;
+      animation: heartbeat 2.5s ease-in-out infinite;
+    }
+
+    .particle-fast { animation: floatUp 5s linear infinite; opacity: 0; }
+    .particle-mid { animation: floatUp 7s linear infinite; opacity: 0; }
+    .particle-slow { animation: floatUp 10s linear infinite; opacity: 0; }
+    
+    /* Text Styling */
+    .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 600; font-size: 20px; fill: var(--text-main); }
+    .text-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; fill: var(--text-sub); }
+    
+    .h-blue { fill: var(--highlight-blue); font-weight: 500; }
+    .h-pink { fill: var(--highlight-pink); font-weight: 500; }
+  </style>
+
+  <!-- Adaptive Card Background -->
+  <rect width="100%" height="100%" rx="10" fill="var(--bg-color)" stroke="var(--border-color)" stroke-width="1.5"/>
+
+  <!-- Adaptive Background Particles -->
+  <g class="entry-particles">
+    <circle cx="80" cy="30" r="3.5" fill="var(--particle-dot)" class="particle-mid" style="animation-delay: 0s" />
+    <circle cx="430" cy="70" r="5.5" fill="var(--particle-dot)" class="particle-fast" style="animation-delay: 1.5s" />
+    <circle cx="280" cy="80" r="2" fill="var(--particle-dot)" class="particle-slow" style="animation-delay: 3s" />
+    <circle cx="380" cy="20" r="4" fill="var(--particle-dot)" class="particle-mid" style="animation-delay: 4.5s" />
+    <circle cx="150" cy="65" r="4.5" fill="var(--particle-dot)" class="particle-fast" style="animation-delay: 2.1s" />
+    <circle cx="220" cy="15" r="2.5" fill="var(--particle-dot)" class="particle-slow" style="animation-delay: 5.2s" />
+    <circle cx="340" cy="40" r="5" fill="var(--particle-dot)" class="particle-mid" style="animation-delay: 0.8s" />
+    <circle cx="50" cy="75" r="3" fill="var(--particle-dot)" class="particle-slow" style="animation-delay: 6s" />
+    
+    <use href="#cross" x="190" y="15" transform="scale(0.8)" fill="var(--particle-cross)" class="particle-mid" style="animation-delay: 0.5s"/>
+    <use href="#cross" x="330" y="65" transform="scale(1.2)" fill="var(--particle-cross)" class="particle-fast" style="animation-delay: 2.5s"/>
+    <use href="#cross" x="110" y="50" transform="scale(1)" fill="var(--particle-cross)" class="particle-slow" style="animation-delay: 4.1s"/>
+    <use href="#cross" x="410" y="35" transform="scale(0.6)" fill="var(--particle-cross)" class="particle-mid" style="animation-delay: 1.2s"/>
+  </g>
+
+  <!-- Beating Heart -->
+  <g class="entry-heart">
+    <g transform="translate(30, 22) scale(1.8)">
+      <path class="heart" fill="#ea4aaa" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+    </g>
+  </g>
+
+  <!-- Adaptive Text -->
+  <g class="entry-title">
+    <text x="85" y="42" class="text-title">Consider Supporting My Work</text>
+  </g>
+  
+  <g class="entry-sub">
+    <text x="85" y="65" class="text-body">
+      A <tspan class="h-blue">one-time tip</tspan> or <tspan class="h-pink">monthly sponsorship</tspan>!
+    </text>
+  </g>
+</svg>
