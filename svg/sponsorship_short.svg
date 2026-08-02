@@ -31,13 +31,13 @@
       <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
     </linearGradient>
 
-    <!-- Shimmer Gradients for "one-time tip" (Blue) - Light Mode (Vibrant Blue with Crisp White-Blue Flash) -->
+    <!-- Shimmer Gradients for "one-time tip" (Blue) - Light Mode (High Contrast Rich Blues - No White) -->
     <linearGradient id="blue-shine-light" x1="-150%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#0969da" />
-      <stop offset="35%" stop-color="#54aeff" />
-      <stop offset="50%" stop-color="#ffffff" />
-      <stop offset="65%" stop-color="#54aeff" />
-      <stop offset="100%" stop-color="#0969da" />
+      <stop offset="0%" stop-color="#0550ae" />
+      <stop offset="35%" stop-color="#1f6feb" />
+      <stop offset="50%" stop-color="#388bfd" />
+      <stop offset="65%" stop-color="#1f6feb" />
+      <stop offset="100%" stop-color="#0550ae" />
       <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
       <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
     </linearGradient>
@@ -51,13 +51,13 @@
       <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
     </linearGradient>
 
-    <!-- Shimmer Gradients for "monthly sponsorship" (Pink) - Light Mode (Vibrant Red/Pink with Crisp White-Pink Flash) -->
+    <!-- Shimmer Gradients for "monthly sponsorship" (Pink) - Light Mode (High Contrast Rich Pinks/Reds - No White) -->
     <linearGradient id="pink-shine-light" x1="-150%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#cf222e" />
-      <stop offset="35%" stop-color="#ff8182" />
-      <stop offset="50%" stop-color="#ffffff" />
-      <stop offset="65%" stop-color="#ff8182" />
-      <stop offset="100%" stop-color="#cf222e" />
+      <stop offset="0%" stop-color="#9f1239" />
+      <stop offset="35%" stop-color="#be123c" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="65%" stop-color="#be123c" />
+      <stop offset="100%" stop-color="#9f1239" />
       <animate attributeName="x1" values="-150%; -150%; 150%; 150%; -150%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
       <animate attributeName="x2" values="-50%; -50%; 250%; 250%; -50%" keyTimes="0; 0.25; 0.45; 0.999; 1" dur="16s" repeatCount="indefinite" />
     </linearGradient>
